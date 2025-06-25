@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Account</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .register-box {
+      background-color: #2d2d30;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      width: 320px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00ffff;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      color: #cccccc;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      background: #3c3c3c;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      margin-top: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #00bcd4;
+      border: none;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0097a7;
+    }
+
+    .link {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .link a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="register-box">
+    <h2>Create Account</h2>
+    <form>
+      <label for="new-username">Username</label>
+      <input type="text" id="new-username" required>
+
+      <label for="new-password">Password</label>
+      <input type="password" id="new-password" required>
+
+      <input type="submit" value="Register">
+    </form>
+    <div class="link">
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+  </div>
+</body>
+</html>
+<!-- 
+ -->
